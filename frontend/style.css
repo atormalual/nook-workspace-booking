@@ -1,0 +1,136 @@
+/* Remove the browser's default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main website appearance */
+body {
+    background-color: #202825;
+    color: #F5F1E8;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+/* Navigation section */
+/* Navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+}
+
+/* Logo */
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Navigation links */
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Login link */
+.login-link {
+    color: #F5F1E8;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Get Started button */
+.nav-button {
+    background-color: #83C4A3;
+    color: #15251E;
+    padding: 18px 30px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Main content */
+main {
+    padding: 150px 80px;
+}
+
+/* Headline */
+main h2 {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* Second headline */
+main h2:nth-of-type(2) {
+    color: #83C4A3;
+}
+
+/* Supporting description */
+main p {
+    font-size: 24px;
+    color: #C5D0C8;
+    max-width: 620px;
+    line-height: 1.5;
+    margin-top: 35px;
+}
+/* Explore Workspaces button */
+.explore-button {
+    display: inline-block;
+    background-color: #83C4A3;
+    color: #15251E;
+
+    padding: 20px 30px;
+    margin-top: 40px;
+
+    border-radius: 12px;
+    text-decoration: none;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Button hover effect */
+.explore-button:hover {
+    background-color: #A5D8BC;
+}
+
+/* Hero image */
+.hero-image {
+    width: 450px;
+    height: 350px;
+
+    object-fit: cover;
+    border-radius: 15px;
+}
+/* Hero two-column layout */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/* Left column */
+.hero-content {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Right column */
+.hero-visual {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Meeting room image */
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+}
