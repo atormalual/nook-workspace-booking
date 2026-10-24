@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explore Workspaces | Nook</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <header>
+        <div class="logo">nook.</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <!-- Workspace browsing section -->
+    <main class="workspace-page">
+
+        <h1>Explore Workspaces</h1>
+
+        <p>
+            Find the perfect space for your next productive day.
+        </p>
+        <!-- Filter workspaces by capacity -->
+<div class="workspace-filter">
+
+    <label for="capacity-filter">
+        Minimum Capacity:
+    </label>
+
+    <input
+        type="number"
+        id="capacity-filter"
+        min="1"
+        value="1"
+    >
+
+    <button id="filter-button">
+        Apply Filter
+    </button>
+
+</div>
+
+        <!-- Workspace cards will appear here -->
+        <section class="workspace-container" id="workspace-container">
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

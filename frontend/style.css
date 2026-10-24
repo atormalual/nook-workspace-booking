@@ -134,3 +134,99 @@ main p {
     display: block;
     border-radius: 15px;
 }
+/* Workspace page navigation */
+
+.workspace-page + footer {
+    margin-top: 40px;
+}
+
+/* Navigation link styling */
+nav a {
+    color: #F5F3EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #85C7A7;
+}
+
+/* Workspace page header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+}
+
+/* Home navigation link */
+header a {
+    color: #F5F3EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header a:hover {
+    color: #85C7A7;
+}
+
+/* Workspace cards container */
+.workspace-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 50px;
+}
+
+/* Individual workspace card */
+.workspace-card {
+    background-color: #2D3833;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* Workspace card headings */
+.workspace-card h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #F5F3EB;
+}
+
+/* Workspace card descriptions */
+.workspace-card p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #C4CDC7;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .workspace-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Workspace booking buttons */
+.book-button {
+    background-color: #84C5A7;
+    color: #15251E;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* Hover effect */
+.book-button:hover:not(:disabled) {
+    background-color: #A3D8BF;
+}
+
+/* Disabled booking button */
+.book-button:disabled {
+    background-color: #777777;
+    color: #CCCCCC;
+    cursor: not-allowed;
+}
