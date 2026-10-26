@@ -20,6 +20,18 @@ Nook is an independent software development project focused on applying JavaScri
 - Improved booking validation and conflict detection.
 - Enhanced user interface and responsive design.
 
+## 📸 Application Screenshots
+
+### Homepage
+The Nook landing page allows users to explore the workspace booking platform.
+
+![Nook Homepage](screenshots/nook-homepage.png)
+
+### Workspace Listings
+Users can browse workspaces, view availability, filter by capacity, and interact with booking options.
+
+![Nook Workspace Listings](screenshots/nook-workspaces.png)
+
 ## 🛠️ Technologies Used
 
 | Technology | Purpose |
