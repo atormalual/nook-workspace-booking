@@ -29,26 +29,64 @@
         <p>
             Find the perfect space for your next productive day.
         </p>
-        <!-- Filter workspaces by capacity -->
-<div class="workspace-filter">
+            
+            <!-- Filter workspaces by capacity and availability -->
+        <div class="workspace-filter">
 
-    <label for="capacity-filter">
-        Minimum Capacity:
-    </label>
+            <h2>Filter Workspaces</h2>
 
-    <input
-        type="number"
-        id="capacity-filter"
-        min="1"
-        value="1"
-    >
+            <div class="filter-fields">
 
-    <button id="filter-button">
-        Apply Filter
-    </button>
+                <div class="filter-group">
+                    <label for="capacity-filter">
+                        Minimum Capacity
+                    </label>
+                    <input
+                        type="number"
+                        id="capacity-filter"
+                        min="1"
+                        value="1"
+                    >
+                </div>
 
-</div>
+                <div class="filter-group">
+                    <label for="date-filter">
+                        Booking Date
+                    </label>
+                    <input type="date" id="date-filter">
+                </div>
 
+                <div class="filter-group">
+                    <label for="start-time-filter">
+                        Start Time
+                    </label>
+                    <input type="time" id="start-time-filter">
+                </div>
+
+                <div class="filter-group">
+                    <label for="end-time-filter">
+                        End Time
+                    </label>
+                    <input type="time" id="end-time-filter">
+                </div>
+
+            </div>
+
+            <div class="filter-actions">
+
+                <label for="availability-filter"
+                    class="availability-option">
+                    <input type="checkbox" id="availability-filter">
+                    Available Workspaces Only
+                </label>
+
+                <button id="filter-button">
+                    Apply Filter
+                </button>
+
+            </div>
+
+        </div>
         <!-- Workspace cards will appear here -->
         <section class="workspace-container" id="workspace-container">
 

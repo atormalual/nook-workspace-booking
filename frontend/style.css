@@ -1,232 +1,486 @@
-/* Remove the browser's default spacing */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+                /* Remove the browser's default spacing */
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
 
-/* Main website appearance */
-body {
-    background-color: #202825;
-    color: #F5F1E8;
-    font-family: Arial, sans-serif;
-    min-height: 100vh;
-}
+                /* Main website appearance */
+                body {
+                    background-color: #202825;
+                    color: #F5F1E8;
+                    font-family: Arial, sans-serif;
+                    min-height: 100vh;
+                }
 
-/* Navigation section */
-/* Navigation bar */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 80px;
-}
+                /* Navigation section */
+                /* Navigation bar */
+                .navbar {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 40px 80px;
+                }
 
-/* Logo */
-.logo {
-    font-size: 40px;
-    font-weight: bold;
-}
+                /* Logo */
+                .logo {
+                    font-size: 40px;
+                    font-weight: bold;
+                }
 
-/* Navigation links */
-nav {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
+                /* Navigation links */
+                nav {
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
+                }
 
-/* Login link */
-.login-link {
-    color: #F5F1E8;
-    text-decoration: none;
-    font-size: 20px;
-}
+                /* Login link */
+                .login-link {
+                    color: #F5F1E8;
+                    text-decoration: none;
+                    font-size: 20px;
+                }
 
-/* Get Started button */
-.nav-button {
-    background-color: #83C4A3;
-    color: #15251E;
-    padding: 18px 30px;
-    border-radius: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-}
+                /* Get Started button */
+                .nav-button {
+                    background-color: #83C4A3;
+                    color: #15251E;
+                    padding: 18px 30px;
+                    border-radius: 12px;
+                    text-decoration: none;
+                    font-size: 18px;
+                    font-weight: bold;
+                }
 
-/* Main content */
-main {
-    padding: 150px 80px;
-}
+                /* Main content */
+                main {
+                    padding: 150px 80px;
+                }
 
-/* Headline */
-main h2 {
-    font-size: 72px;
-    font-weight: bold;
-    line-height: 1.2;
-}
+                /* Headline */
+                main h2 {
+                    font-size: 72px;
+                    font-weight: bold;
+                    line-height: 1.2;
+                }
 
-/* Second headline */
-main h2:nth-of-type(2) {
-    color: #83C4A3;
-}
+                /* Second headline */
+                main h2:nth-of-type(2) {
+                    color: #83C4A3;
+                }
 
-/* Supporting description */
-main p {
-    font-size: 24px;
-    color: #C5D0C8;
-    max-width: 620px;
-    line-height: 1.5;
-    margin-top: 35px;
-}
-/* Explore Workspaces button */
-.explore-button {
-    display: inline-block;
-    background-color: #83C4A3;
-    color: #15251E;
+                /* Supporting description */
+                main p {
+                    font-size: 24px;
+                    color: #C5D0C8;
+                    max-width: 620px;
+                    line-height: 1.5;
+                    margin-top: 35px;
+                }
+                /* Explore Workspaces button */
+                .explore-button {
+                    display: inline-block;
+                    background-color: #83C4A3;
+                    color: #15251E;
 
-    padding: 20px 30px;
-    margin-top: 40px;
+                    padding: 20px 30px;
+                    margin-top: 40px;
 
-    border-radius: 12px;
-    text-decoration: none;
+                    border-radius: 12px;
+                    text-decoration: none;
 
-    font-size: 20px;
-    font-weight: bold;
-}
+                    font-size: 20px;
+                    font-weight: bold;
+                }
 
-/* Button hover effect */
-.explore-button:hover {
-    background-color: #A5D8BC;
-}
+                /* Button hover effect */
+                .explore-button:hover {
+                    background-color: #A5D8BC;
+                }
 
-/* Hero image */
-.hero-image {
-    width: 450px;
-    height: 350px;
+                /* Hero image */
+                .hero-image {
+                    width: 450px;
+                    height: 350px;
 
-    object-fit: cover;
-    border-radius: 15px;
-}
-/* Hero two-column layout */
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-}
+                    object-fit: cover;
+                    border-radius: 15px;
+                }
+                /* Hero two-column layout */
+                .hero {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 50px;
+                }
 
-/* Left column */
-.hero-content {
-    flex: 1;
-    min-width: 0;
-}
+                /* Left column */
+                .hero-content {
+                    flex: 1;
+                    min-width: 0;
+                }
 
-/* Right column */
-.hero-visual {
-    flex: 1;
-    min-width: 0;
-}
+                /* Right column */
+                .hero-visual {
+                    flex: 1;
+                    min-width: 0;
+                }
 
-/* Meeting room image */
-.hero-image {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 15px;
-}
-/* Workspace page navigation */
+                /* Meeting room image */
+                .hero-image {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                    border-radius: 15px;
+                }
+                /* Workspace page navigation */
 
-.workspace-page + footer {
-    margin-top: 40px;
-}
+                .workspace-page + footer {
+                    margin-top: 40px;
+                }
 
-/* Navigation link styling */
-nav a {
-    color: #F5F3EB;
-    text-decoration: none;
-    font-size: 18px;
-}
+                /* Navigation link styling */
+                nav a {
+                    color: #F5F3EB;
+                    text-decoration: none;
+                    font-size: 18px;
+                }
 
-nav a:hover {
-    color: #85C7A7;
-}
+                nav a:hover {
+                    color: #85C7A7;
+                }
 
-/* Workspace page header */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 5%;
-}
+                /* Workspace page header */
+                header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 30px 5%;
+                }
 
-/* Home navigation link */
-header a {
-    color: #F5F3EB;
-    text-decoration: none;
-    font-size: 18px;
-}
+                /* Home navigation link */
+                header a {
+                    color: #F5F3EB;
+                    text-decoration: none;
+                    font-size: 18px;
+                }
 
-header a:hover {
-    color: #85C7A7;
-}
+                header a:hover {
+                    color: #85C7A7;
+                }
 
-/* Workspace cards container */
-.workspace-container {
+                /* Workspace cards container */
+                .workspace-container {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 25px;
+                    margin-top: 50px;
+                }
+
+                /* Individual workspace card */
+                .workspace-card {
+                    background-color: #2D3833;
+                    padding: 25px;
+                    border-radius: 12px;
+                }
+
+                /* Workspace card headings */
+                .workspace-card h2 {
+                    font-size: 24px;
+                    margin-bottom: 15px;
+                    color: #F5F3EB;
+                }
+
+                /* Workspace card descriptions */
+                .workspace-card p {
+                    font-size: 16px;
+                    margin: 10px 0;
+                    color: #C4CDC7;
+                }
+
+                /* Responsive layout */
+                @media (max-width: 768px) {
+                    .workspace-container {
+                        grid-template-columns: 1fr;
+                    }
+                }
+
+                /* Workspace booking buttons */
+                .book-button {
+                    background-color: #84C5A7;
+                    color: #15251E;
+                    border: none;
+                    padding: 12px 20px;
+                    border-radius: 8px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    margin-top: 15px;
+                }
+
+                /* Hover effect */
+                .book-button:hover:not(:disabled) {
+                    background-color: #A3D8BF;
+                }
+
+                /* Disabled booking button */
+                .book-button:disabled {
+                    background-color: #777777;
+                    color: #CCCCCC;
+                    cursor: not-allowed;
+                }
+                /* My Bookings layout */
+                #bookings-container {
+                    display: grid;
+                    grid-template-columns: repeat(2, minmax(0, 1fr));
+                    gap: 24px;
+                    margin-top: 30px;
+                }
+
+                /* Responsive layout for smaller screens */
+                @media (max-width: 768px) {
+                    #bookings-container {
+                        grid-template-columns: 1fr;
+                    }
+                }
+                /* Cancellation button */
+                .cancel-button {
+                    background-color: transparent;
+                    color: #e8a09a;
+                    border: 1px solid #e8a09a;
+                    padding: 10px 20px;
+                    border-radius: 8px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    margin-top: 10px;
+                    transition: all 0.2s ease;
+                }
+
+                /* Hover effect */
+                .cancel-button:hover:not(:disabled) {
+                    background-color: #e8a09a;
+                    color: #202925;
+                }
+
+                /* Disabled cancellation button */
+                .cancel-button:disabled {
+                    color: #85938a;
+                    border-color: #526057;
+                    cursor: not-allowed;
+                    opacity: 0.6;
+                }
+                /* Booking status styling */
+                .booking-status {
+                    font-weight: 600;
+                }
+
+                .booking-status.upcoming {
+                    color: #9ed8b2;
+                }
+
+                .booking-status.in-progress {
+                    color: #efc478;
+                }
+
+                .booking-status.completed {
+                    color: #a9b5ae;
+                }
+                /* Workspace availability status */
+
+                .workspace-status {
+                    font-weight: 600;
+                }
+
+                .workspace-status.available {
+                    color: #9bd8b5;
+                }
+
+                .workspace-status.unavailable {
+                    color: #f2a29a;
+                }
+
+                .workspace-status.invalid {
+                    color: #ebc77e;
+                }
+
+                .workspace-status.neutral {
+                    color: #a8b5ad;
+                }
+                /* Workspace filter section */
+                .workspace-filter {
+                    background-color: #2c3731;
+                    padding: 24px;
+                    border-radius: 12px;
+                    margin-top: 24px;
+                    margin-bottom: 32px;
+                }
+
+                .workspace-filter h2 {
+                    font-size: 22px;
+                    margin: 0 0 20px;
+                    color: #f4f1e8;
+                }
+                /* Filter input layout */
+                .filter-fields {
+                    display: grid;
+                    grid-template-columns: repeat(2, minmax(0, 1fr));
+                    gap: 20px;
+                }
+
+                .filter-group {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                }
+
+                .filter-group label {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #c4d0c8;
+                }
+
+                .filter-group input {
+                    width: 100%;
+                    min-width: 0;
+                    box-sizing: border-box;
+                    padding: 12px;
+                    border: 1px solid #52655a;
+                    border-radius: 8px;
+                    background-color: #202923;
+                    color: #f4f1e8;
+                    font-size: 15px;
+                    color-scheme: dark;
+                }
+
+                .filter-group input:focus {
+                    outline: 2px solid #8ac7aa;
+                    outline-offset: 2px;
+                }
+                /* Filter actions */
+                .filter-actions {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 18px;
+                    margin-top: 24px;
+                }
+
+                .availability-option {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    color: #dce5df;
+                    font-size: 15px;
+                    cursor: pointer;
+                }
+
+                .availability-option input {
+                    width: 18px;
+                    height: 18px;
+                    accent-color: #8ac7aa;
+                }
+
+                #filter-button {
+                    background-color: #8ac7aa;
+                    color: #15271d;
+                    border: none;
+                    border-radius: 8px;
+                    padding: 12px 24px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    transition: background-color 0.2s;
+                }
+
+                #filter-button:hover {
+                    background-color: #a5d8be;
+                }
+                /* Responsive workspace filter */
+                @media (max-width: 600px) {
+                    .filter-fields {
+                        grid-template-columns: 1fr;
+                    }
+
+                    .workspace-filter {
+                        padding: 18px;
+                    }
+                }
+                /* Workspace booking fields */
+.booking-fields {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
-    margin-top: 50px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #52655a;
 }
 
-/* Individual workspace card */
-.workspace-card {
-    background-color: #2D3833;
-    padding: 25px;
-    border-radius: 12px;
+.booking-date-group {
+    grid-column: 1 / -1;
 }
 
-/* Workspace card headings */
-.workspace-card h2 {
-    font-size: 24px;
-    margin-bottom: 15px;
-    color: #F5F3EB;
+.booking-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
-/* Workspace card descriptions */
-.workspace-card p {
+.booking-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #c4d0c8;
+}
+/* Booking input appearance */
+.booking-group input {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #52655a;
+    border-radius: 8px;
+    background-color: #202923;
+    color: #f4f1e8;
+    font-size: 15px;
+    color-scheme: dark;
+}
+
+.booking-group input:focus {
+    outline: 2px solid #8ac7aa;
+    outline-offset: 2px;
+}
+/* Workspace booking button */
+.workspace-card .book-button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #8ac7aa;
+    color: #15271d;
     font-size: 16px;
-    margin: 10px 0;
-    color: #C4CDC7;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
 }
 
-/* Responsive layout */
-@media (max-width: 768px) {
-    .workspace-container {
+.workspace-card .book-button:hover {
+    background-color: #a5d8be;
+}
+/* Responsive booking fields */
+@media (max-width: 600px) {
+    .booking-fields {
         grid-template-columns: 1fr;
     }
 }
-
-/* Workspace booking buttons */
-.book-button {
-    background-color: #84C5A7;
-    color: #15251E;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: 15px;
+/* Workspace page spacing */
+.workspace-page {
+    padding: 40px 5%;
 }
 
-/* Hover effect */
-.book-button:hover:not(:disabled) {
-    background-color: #A3D8BF;
-}
-
-/* Disabled booking button */
-.book-button:disabled {
-    background-color: #777777;
-    color: #CCCCCC;
-    cursor: not-allowed;
+/* Mobile workspace page spacing */
+@media (max-width: 768px) {
+    .workspace-page {
+        padding: 24px 20px;
+    }
 }
